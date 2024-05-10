@@ -1,6 +1,6 @@
 # Gestoreit
 
-Nombre autoexplicativo del proyecto, con una breve descripción.
+Monitoreo de sensores por el protocolo LoRa para el monitoreo de biodigestor en el Estado de Hidalgo
 
 ## Descripción
 
