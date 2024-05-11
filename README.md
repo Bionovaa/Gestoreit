@@ -1,14 +1,10 @@
-# Gestoreit
+# **Gestoreit: Monitoreo de Biodigestor**
 
-Monitoreo de sensores por el protocolo LoRa para el monitoreo de biodigestor en el Estado de Hidalgo
+Monitoreo de sensores por el protocolo LoRa para el monitoreo de iodigestor en el Estado de Hidalgo
 
 ## Descripción
 
-Una descripción más detallada y técnica del proyecto, incluyendo sus principales características, su propósito y cómo funciona.
-
-## Insignias
-
-Insignias que muestran metadatos como el estado de la compilación, la cobertura de las pruebas, el estado de las dependencias, etc.
+El presente proyecto tiene como objetivo desarrollar un sistema de monitoreo remoto de sensores utilizando el protocolo LoRa para la gestión de biodigestores y el software de codigo abierto Zabbix en el estado de Hidalgo. El sistema permitirá recopilar datos en tiempo real de parámetros críticos como la temperatura, la presión, el monoxido de carbono y el dioxido de carbono, proporcionando información valiosa para optimizar el funcionamiento de biodigestores y mejorar la producción de biogás.
 
 ## Visuales
 
@@ -22,11 +18,11 @@ Estas instrucciones te guiarán para obtener una copia de este proyecto en funci
 
 Lista de software y herramientas, incluyendo versiones, que necesitas para instalar y ejecutar este proyecto:
 
-- Sistema Operativo (por ejemplo, Ubuntu 20.04, Windows 10)
-- Lenguaje de programación (por ejemplo, Python 3.8)
-- Framework (por ejemplo, Django 3.1)
-- Base de datos (por ejemplo, PostgreSQL 12)
-- Otros...
+- Sistema Operativo: Linux nativo o de forma virtualizada
+- Lenguaje de programación: C+
+- Base de datos: Mariadb o MySQL
+- Zabbix: Frontend, server y agente 2
+- PHP
 
 ### Instalación 🔧
 
@@ -62,10 +58,6 @@ Descripción y ejemplos de las pruebas de estilo que estás utilizando.
 # proporciona un ejemplo
 ```
 
-## Despliegue 📦
-
-Instrucciones sobre cómo desplegar esto en un sistema en vivo o ambiente de producción.
-
 ## Construido Con 🛠️
 
 Explica qué tecnologías usaste para construir este proyecto. Aquí algunos ejemplos:
@@ -79,10 +71,6 @@ Explica qué tecnologías usaste para construir este proyecto. Aquí algunos eje
 ## Contribuyendo 🖇️
 
 Las contribuciones son lo que hacen a la comunidad de código abierto un lugar increíble para aprender, inspirar y crear. Cualquier contribución que hagas es muy apreciada. Por favor, lee el [CONTRIBUTING.md](https://gist.github.com/brayandiazc/xxxxxx) para detalles sobre nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más sobre cómo usar este proyecto en nuestra [Wiki](https://github.com/your/project/wiki)
 
 ## Soporte
 
@@ -100,13 +88,9 @@ Usamos [Git](https://git-scm.com) para el versionado. Para las versiones disponi
 
 ## Autores ✒️
 
-- **Brayan Diaz C** - _Trabajo inicial_ - [Brayan Diaz C](https://github.com/brayandiazc)
+- **Alejandro Barrientos Escalante** - _Trabajo inicial_ - [Alejandro Barrientos](https://github.com/beofalejandro)
 
-Mira también la lista de [contribuidores](https://github.com/your/project/contributors) que han participado en este proyecto.
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia XYZ - ve el archivo [LICENSE.md](LICENSE.md) para detalles
+Mira también la lista de [contribuidores]() que han participado en este proyecto.
 
 ## Expresiones de Gratitud 🎁
 
@@ -119,17 +103,4 @@ Estamos agradecidos por las contribuciones de la comunidad a este proyecto. Si e
 
 ---
 
-## Consejos Adicionales 📝
-
-Aquí hay algunos consejos extra para aprovechar al máximo tu README:
-
-- Mantén cada sección lo más concisa posible. Evita la pelusa innecesaria, ya que puede ser abrumadora para el lector.
-- Asegúrate de que tus instrucciones de instalación, pruebas y despliegue sean detalladas y precisas. Si hay pasos adicionales que el lector necesita tomar (como instalar dependencias extra), asegúrate de incluirlos.
-- Los visuales (imágenes, GIFs) son muy útiles para transmitir rápidamente lo que hace tu proyecto y cómo usarlo. Si puedes, incluye capturas de pantalla de tu aplicación en acción o GIFs que demuestren su uso.
-- El tono amigable y acogedor que usas en tu README es excelente. Ayuda a hacer tu proyecto más acogedor para los colaboradores.
-
-Recuerda, un buen README es crucial para hacer que tu proyecto sea atractivo y accesible para otros desarrolladores. ¡Buena suerte con tu proyecto!
-
----
-
-⌨️ con ❤️ por [Brayan Diaz C](https://github.com/brayandiazc) 😊
+Documentacion hecha con ❤️ por **ESCALIA**
