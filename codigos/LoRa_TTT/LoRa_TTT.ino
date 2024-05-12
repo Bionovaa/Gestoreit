@@ -30,7 +30,7 @@
   #define senGasC 37      // Pin del monoxido-Carbono MQ-9 20 hasta 2000 ppm
   #define senGasM 38  // Pin del gas-Metano MQ-4 200 y 10000 ppm-
   #define senTemp 13  //Pin de temperatura grados celcius
-  #define MotorPin 25   // Pin donde estara conectada el motor
+  #define pinTransis 25   // Pin donde estara conectada el motor
   // Sensor de Bateria
   # define BattPIN 36
   String battNivel;
@@ -101,7 +101,7 @@ void setup() {
   //inicializa sensor BATERIA
   pinMode(BattPIN, INPUT);
   //inicializa pin de motor
-  //pinMode(MotorPin,OUTPUT);
+  pinMode(pinTransis,OUTPUT);
     delay(1000);
 }
 
@@ -215,8 +215,19 @@ void loop() {/*
 }
 
 void sensorBateria(){
+  //digitalWrite(pinTransis, 1);  // Enciende la lectura de Pila
+  //delay(100);
+
   int lectura = analogRead(BattPIN);
   // convierte a equivalente en voltios
-  float voltaje = (float(lectura)/4096.0)*4.2*3.0/2.0;
-  battNivel = String(voltaje).c_str();
+  float voltaje = (float(lectura)/4096.0)*3.7*3.0/2.0;
+  // Calcula el porcentaje de batería
+  float porcentaje = (voltaje / 1.06) * 100.0;
+  // Asegura que el porcentaje esté en el rango de 0 a 100
+  porcentaje = constrain(porcentaje, 0, 100);
+
+  battNivel = String(porcentaje).c_str();
+
+  //digitalWrite(pinTransis, 0);  // Apaga la lectura de la Pila}
+  //delay(10);
 }
