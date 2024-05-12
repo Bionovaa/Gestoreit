@@ -73,7 +73,7 @@ Las contribuciones son lo que hacen a la comunidad de código abierto un lugar i
 
 ## Soporte
 
-Si tienes algún problema o sugerencia, por favor abre un problema o envia nos un correo electronico _______________________.
+Si tienes algún problema o sugerencia, por favor abre un problema o envianos un correo electronico _______________________.
 
 ## Roadmap
 
@@ -92,6 +92,9 @@ Usamos [Git](https://git-scm.com) para el versionado. Para las versiones disponi
 ## Autores ✒️
 
 - **Alejandro Barrientos Escalante** - _Trabajo inicial_ - [Alejandro Barrientos](https://github.com/beofalejandro)
+- **Ulises Porras Rosas** - _Trabajo inicial_ - [Ulises Porras](https://github.com/UlisesPR2101)
+- **Elvis Jesus Martinez Lugo** - _Trabajo inicial_ - [Elvis Lugo](https://github.com/Elvis-Lugo)
+- **Elizabeth Diaz Oropeza** - _Trabajo inicial_ - [Elizabeth Diaz](https://github.com/---)
 
 Mira también la lista de [contribuidores]() que han participado en este proyecto.
 
