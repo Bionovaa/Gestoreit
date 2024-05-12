@@ -12,7 +12,7 @@ Capturas de pantalla, videos o GIFs que demuestran lo que hace el proyecto y có
 
 ## Empezando 🚀
 
-Estas instrucciones te guiarán para obtener una copia de este proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
+Por ahora no hay alguna forma de tener nuestro proyecto ya que se encuentra alojado en una maquina virtual, proximamente en un contenedor para el acceso para todos
 
 ### Prerrequisitos 📋
 
@@ -26,29 +26,28 @@ Lista de software y herramientas, incluyendo versiones, que necesitas para insta
 
 ### Instalación 🔧
 
-Una guía paso a paso sobre cómo configurar el entorno de desarrollo e instalar todas las dependencias.
-
-```bash
-# paso 1
-```
-
-Y así sucesivamente...
-
-```bash
-# paso 2
-```
+Puedes ver el siguiente enlace para instalar zabbix y configurarlo de forma exitosa en tu entorno
 
 ## Ejecutando las Pruebas ⚙️
 
-Instrucciones y ejemplos para ejecutar el conjunto de pruebas.
+Los siguintes comandos son fundamentales para garantizar que esta funcionando de forma datisfactorio
 
+### 1.- Establecer conexion con la maquina virtual, gateway o server de zabbix
 ```bash
-# proporciona un ejemplo
+ping 192.0.0.0
+```
+### 2.- Ver el archivo log de zabbix agent2
+Es fundamental para asegurarse de que se configuró de forma satisfactoria el agente zabbix con el gateway, es importante conocer donde esta ubicado
+```bash
+cat *ubicacion del log de zabbix*
 ```
 
 ### Pruebas de Principio a Fin 🔩
 
-Explica qué cubren estas pruebas, por qué son importantes y cómo interpretar sus resultados.
+Para la interpretacion de datos debes acceder al dashboard de zabbix desde el navegador de la maquina o de forma remota conectandote en la misma red del dashboard poniendo la ip del ordenador acompañada de /zabbix, ejemplo:
+```navegador
+192.0.0.1/zabbix
+```
 
 ### Pruebas de Estilo de Código ⌨️
 
@@ -74,13 +73,17 @@ Las contribuciones son lo que hacen a la comunidad de código abierto un lugar i
 
 ## Soporte
 
-Si tienes algún problema o sugerencia, por favor abre un problema [aquí](https://github.com/your/project/issues).
+Si tienes algún problema o sugerencia, por favor abre un problema o envia nos un correo electronico _______________________.
 
 ## Roadmap
 
-Ideas, mejoras planificadas y actualizaciones futuras
+Posibles implementaciones al proyecto
 
-para el proyecto actual.
+- Implementar automatizacion al proyecto
+- Agregar mas sensores para el monitoreo
+- Optimizacion de codigo de la placa
+- Implementacion de big data para el analisis de datos
+- implementacion de computo en la nube
 
 ## Versionado 📌
 
@@ -97,9 +100,8 @@ Mira también la lista de [contribuidores]() que han participado en este proyect
 Estamos agradecidos por las contribuciones de la comunidad a este proyecto. Si encontraste cualquier valor en este proyecto o quieres contribuir, aquí está lo que puedes hacer:
 
 - Comparte este proyecto con otros
-- Invítanos un café ☕
-- Inicia un nuevo problema o contribuye con un PR
 - Muestra tu agradecimiento diciendo gracias en un nuevo problema.
+- sigue al tarabjo de nuestros autores
 
 ---
 
