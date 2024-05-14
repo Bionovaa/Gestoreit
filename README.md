@@ -4,7 +4,15 @@ Monitoreo de sensores por el protocolo LoRa para el monitoreo de iodigestor en e
 
 ## Descripción
 
-El presente proyecto tiene como objetivo desarrollar un sistema de monitoreo remoto de sensores utilizando el protocolo LoRa para la gestión de biodigestores y el software de codigo abierto Zabbix en el estado de Hidalgo. El sistema permitirá recopilar datos en tiempo real de parámetros críticos como la temperatura, la presión, el monoxido de carbono y el dioxido de carbono, proporcionando información valiosa para optimizar el funcionamiento de biodigestores y mejorar la producción de biogás.
+El proyecto consiste en el diseño, desarrollo e implementación de un biodigestor equipado con sensores para monitorear y optimizar el proceso de producción de biogás a partir de residuos orgánicos (de origen animal). El biodigestor aprovechará la descomposición anaeróbica de la materia orgánica para generar biogás, una fuente de energía renovable y limpia, mientras que los sensores permitirán controlar parámetros clave como la temperatura, nivel de humedad y concentración de gases de Co2 y Metano; garantizando una eficiencia óptima y una producción constante de biogás.
+
+## Objetivo
+
+Elaborar un biodigestor que integre tecnologías LoRa y sensores especializados para medir la temperatura, nivel de humedad y concentración de gases de Co2 y Metano; con el fin de monitorear los niveles de calidad del biogás producido, y mejorar su proceso.
+
+## Problematica
+
+La creciente demanda de energía y la necesidad de reducir las emisiones de gases de efecto invernadero han generado un interés creciente en fuentes de energía renovable. Sin embargo, la producción de biogás a partir de residuos orgánicos puede ser ineficiente y poco controlada, lo que limita su viabilidad como una alternativa energética sostenible. Además, la falta de monitoreo y control en los biodigestores tradicionales puede llevar a problemas de operación y mantenimiento, así como a una baja eficiencia en la producción de biogás.
 
 ## Visuales
 
@@ -49,17 +57,7 @@ Para la interpretacion de datos debes acceder al dashboard de zabbix desde el na
 192.0.0.1/zabbix
 ```
 
-### Pruebas de Estilo de Código ⌨️
-
-Descripción y ejemplos de las pruebas de estilo que estás utilizando.
-
-```bash
-# proporciona un ejemplo
-```
-
 ## Construido Con 🛠️
-
-Explica qué tecnologías usaste para construir este proyecto. Aquí algunos ejemplos:
 
 - [Ruby](https://www.ruby-lang.org/es/) - El lenguaje utilizado
 - [Ruby on Rails](https://rubyonrails.org) - El framework web utilizado
@@ -69,7 +67,7 @@ Explica qué tecnologías usaste para construir este proyecto. Aquí algunos eje
 
 ## Contribuyendo 🖇️
 
-Las contribuciones son lo que hacen a la comunidad de código abierto un lugar increíble para aprender, inspirar y crear. Cualquier contribución que hagas es muy apreciada. Por favor, lee el [CONTRIBUTING.md](https://gist.github.com/brayandiazc/xxxxxx) para detalles sobre nuestro código de conducta, y el proceso para enviarnos pull requests.
+Las contribuciones son lo que hacen a la comunidad de código abierto un lugar increíble para aprender, inspirar y crear. Cualquier contribución que hagas es muy apreciada.
 
 ## Soporte
 
@@ -84,10 +82,6 @@ Posibles implementaciones al proyecto
 - Optimizacion de codigo de la placa
 - Implementacion de big data para el analisis de datos
 - implementacion de computo en la nube
-
-## Versionado 📌
-
-Usamos [Git](https://git-scm.com) para el versionado. Para las versiones disponibles, ve las [etiquetas en este repositorio](https://github.com/your/project/tags).
 
 ## Autores ✒️
 
