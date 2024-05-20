@@ -7,6 +7,8 @@ El proyecto consiste en el diseño, desarrollo e implementación de un biodigest
 ## Visuales 📷
 
 ![Zabbix Dashboard](https://github.com/Bionovaa/Gestoreit/blob/main/Imagenes/zabbix-dashboard.jpg)
+![Zabbix Dashboard](https://github.com/Bionovaa/Gestoreit/blob/main/diagramas/sensors-diagram.png)
+![Zabbix Dashboard](https://github.com/Bionovaa/Gestoreit/blob/main/diagramas/conection-diagram.png)
 
 ## Empezando 🚀
 
